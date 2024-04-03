@@ -1,0 +1,12 @@
+.Board {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.Board tr {
+  border: none;
+}
+
+.Board td {
+  border: none;
+}

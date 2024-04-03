@@ -1,0 +1,30 @@
+.Cell {
+  height: 60px;
+  width: 60px;
+  background-color: #b2a8b4;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  margin: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.Cell-lit {
+  background-color: #faeef3; 
+  box-shadow: 0 0 15px #ff00bf; 
+}
+
+@keyframes flip {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.Cell:hover {
+  animation-name: flip;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
